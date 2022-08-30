@@ -48,17 +48,6 @@ body{
     margin-right: 30px;
 }
 
-.search{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.search>div{
-    display: flex;
-    justify-content: center;
-}
-
 .header-text{
     margin: 60px 15px;
     display: flex;
@@ -76,8 +65,18 @@ body{
     font-weight: bold;
     font-size:20px;
 }
+.recommend{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-.search div div{
+.recommend>div{
+    display: flex;
+    justify-content: center;
+}
+
+.recommend div div{
     width: 500px;
     height: 350px;
     border-radius: 25px;
@@ -86,11 +85,11 @@ body{
     background-color: whitesmoke;
 }
 
-.search div div:first-child{
+.recommend div div:first-child{
     margin-right : 100px;
 }
 
-.search div div:last-child{
+.recommend div div:last-child{
     margin-top:100px;
 }
 
