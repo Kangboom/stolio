@@ -6,7 +6,9 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 15px;
     margin-bottom: 60px;
+    
 }
 
 .status-bar__logo{
