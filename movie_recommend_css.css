@@ -83,20 +83,20 @@ body{
     justify-content: center;
 }
 
-.recommend div div{
+.recommend>div>div{
     width: 500px;
     height: 350px;
     border-radius: 25px;
     border: 2px solid red ;
     margin-bottom:60px;
-    background-color: whitesmoke;
+    background-color: white
 }
 
-.recommend div div:first-child{
+.recommend>div>div:first-child{
     margin-right : 100px;
 }
 
-.recommend div div:last-child{
+.recommend>div>div:last-child{
     margin-top:100px;
 }
 
@@ -126,4 +126,65 @@ body{
 .stolio-title{
     color:white;
     font-weight: bold;
+}
+
+.recommend_row_1-1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.recommend-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.recommend-title img{
+    width: 180px;
+    height: 200px;
+}
+
+
+.recommend-synopsis{
+    width: 50%;
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+.recommend_button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.recommend_button >div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.recommend_button div:first-child img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.recommend_button div:nth-child(2) img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.recommend_button div:last-child img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
 }
